@@ -1,5 +1,9 @@
-.cellPhone {
+.colorLG {
     color: #C8135C;
+}
+
+.center {
+    text-align: center;
 }
 
 .contacto {
@@ -8,4 +12,9 @@
     height: 40px;
     background-color: #C8135C;
     color: #ffffff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
