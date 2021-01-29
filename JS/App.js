@@ -1,0 +1,3 @@
+$('#collapseExample').collapse({
+    toggle: false
+})
