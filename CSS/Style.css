@@ -1,25 +1,13 @@
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    font-size: 1rem;
-    line-height: 1.5;
-    color: #333;
-    overflow-x: hidden;
-}
-
 .header {
     height: 100vh;
     display: flex;
-    align-items: center;
     color: #fff;
 }
 
 .content {
-    max-width: 33Rem;
-    padding-left: 1rem;
+    z-index: 1;
+    max-width: 90Rem;
+    padding-left: 25rem;
     padding-right: 1rem;
     margin: auto;
     text-align: center;
@@ -39,23 +27,34 @@ body {
     max-height: 100%;
 }
 
-.header-content {
+.content-logo-1 {
     z-index: 1;
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
 
-.header-content h2 {
+.content-logo-2 {
+    visibility: hidden;
+}
+
+.content h1 {
     font-size: 50px;
     margin-bottom: 0;
 }
 
-.header-content p {
-    font-size: 2rem;
+.content p {
+    font-size: 35px;
+    font-weight: bold;
     display: block;
-    padding-bottom: .5rem;
 }
 
 .colorLG {
     color: #C8135C;
+}
+
+.colorBlack {
+    color: #fff;
 }
 
 .center {
@@ -70,39 +69,108 @@ body {
     color: #ffffff;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-.logoLG {
-    width: 30%;
-    height: 30%;
-}
-
-.map {
+.ubicacion {
     width: 500px;
     height: 400px;
     border:0;
 }
 
-@media (max-width: 500px) {
-    .content {
+@media (max-width: 768px) {
+    .header {
         padding: 0 3rem 0 3rem;
     }
-    .header-content h2 {
+
+    .content {
+        z-index: 1;
+        max-width: 50Rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin: auto;
+        text-align: center;
+    }
+
+    .content h1 {
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    .content p {
+        font-size: 2rem;
+        display: block;
+        margin: 0;
+    }
+
+    .ubicacion {
+        width: 350px;
+        height: 250px;
+        border:0;
+    }
+
+    .content-logo-1 {
+        z-index: 1;
+        position: absolute;
+        top: 5px;
+        left: 2px;
+        width: 25vw;
+        height: 12vh;
+    }
+
+    .content-logo-2 {
+        visibility: visible;
+        position: absolute;
+        z-index: 1;
+        bottom: 5px;
+        right: 2px;
+        width: 25vw;
+        height: 12vh;
+    }
+}
+
+@media (max-width: 500px) {
+    .header {
+        padding: 0 3rem 0 3rem;
+    }
+
+    .content {
+        z-index: 1;
+        max-width: 50Rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin: auto;
+        text-align: center;
+    }
+
+    .content h1 {
         font-size: 20px;
         margin-bottom: 0;
     }
-    .header-content p {
+    .content p {
         font-size: 1rem;
         display: block;
         margin: 0;
     }
 
-    .map {
+    .ubicacion {
         width: 90vw;
         height: 250px;
         border:0;
+    }
+
+    .content-logo-1 {
+        z-index: 1;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 90vw;
+        height: 25vh;
+    }
+
+    .content-logo-2 {
+        visibility: visible;
+        position: absolute;
+        z-index: 1;
+        bottom: 15px;
+        right: 25px;
+        width: 90vw;
+        height: 25vh;
     }
 }
