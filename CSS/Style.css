@@ -126,6 +126,11 @@
         border:0;
     }
 
+    .pagos {
+        width: 48vw;
+        height: 80px;
+    }
+
     .content-logo-1 {
         z-index: 1;
         position: absolute;
