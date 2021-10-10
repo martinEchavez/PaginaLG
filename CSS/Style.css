@@ -1,27 +1,6 @@
-.justifyCont {
-    text-align: justify;
-    text-justify: inter-word;
-}
-
-.header {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-}
-
-.header-video {
-    background-color: black;
-    position: absolute;
-    top: 0;
-    left: 0;
+.video {
     width: 100%;
     height: 100%;
-    overflow: hidden;
-}
-
-.header-video video {
-    min-width: 100%;
-    max-height: 100%;
 }
 
 .content-logo {
@@ -75,14 +54,6 @@
 }
 
 @media (max-width: 1200px) {
-    .header {
-        height: 70vh;
-    }
-
-    .header-video {
-        height: 70%;
-    }
-
     .pagos {
         width: 450px;
         height: 100px;
@@ -107,14 +78,6 @@
 }
 
 @media (max-width: 768px) {
-    .header {
-        height: 60vh;
-    }
-
-    .header-video {
-        height: 60%;
-    }
-
     .ubicacion {
         width: 350px;
         height: 250px;
@@ -127,14 +90,6 @@
 }
 
 @media (max-width: 576px) {
-    .header {
-        height: 40vh;
-    }
-
-    .header-video {
-        height: 40%;
-    }
-
     .ubicacion {
         width: 300px;
         height: 250px;
