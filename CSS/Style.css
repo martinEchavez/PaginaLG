@@ -1,107 +1,82 @@
 .video {
-    width: 100%;
-    height: 100%;
-}
-
-.content-logo {
-    z-index: 1;
-    position: absolute;
-    top: 10px;
-    left: 10px;
+  width: 100%;
+  height: 100%;
 }
 
 .colorLG {
-    color: #C8135C;
+  color: #c8135c;
 }
 
 .center {
-    text-align: center;
-}
-
-.contacto {
-    text-align: center;
-    width: 100%;
-    height: 40px;
-    background-color: #C8135C;
-    color: #ffffff;
+  text-align: center;
 }
 
 .ubicacion {
-    width: 400px;
-    height: 300px;
-    border:0;
+  width: 400px;
+  height: 300px;
+  border: 0;
 }
 
 .whatsapp {
-    position:fixed;
-    width:60px;
-    height:60px;
-    bottom:40px;
-    right:40px;
-    background-color:#25d366;
-    color:#FFF;
-    border-radius:50px;
-    border: 1px solid #fff;
-    padding: 5px;
-    box-shadow: 5px 10px 8px #888888;
-    text-align:center;
-    font-size:30px;
-    z-index:100;
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  border: 1px solid #fff;
+  padding: 5px;
+  box-shadow: 5px 10px 8px #888888;
+  text-align: center;
+  font-size: 30px;
+  z-index: 100;
 }
 
 .whatsapp-icon {
-    color: #fff;
+  color: #fff;
 }
 
 @media (max-width: 1200px) {
-    .pagos {
-        width: 450px;
-        height: 100px;
-    }
+  .pagos {
+    width: 450px;
+    height: 100px;
+  }
 }
 
 @media (max-width: 992px) {
-    .content-logo {
-        width: 125px;
-        height: 61px;
-    }
+  .ubicacion {
+    width: 350px;
+    height: 250px;
+  }
 
-    .ubicacion {
-        width: 350px;
-        height: 250px;
-    }
-
-    .pagos {
-        width: 350px;
-        height: 80px;
-    }
+  .pagos {
+    width: 350px;
+    height: 80px;
+  }
 }
 
 @media (max-width: 768px) {
-    .ubicacion {
-        width: 350px;
-        height: 250px;
-    }
+  .ubicacion {
+    width: 350px;
+    height: 250px;
+  }
 
-    .pagos {
-        width: 350px;
-        height: 90px;
-    }
+  .pagos {
+    width: 350px;
+    height: 90px;
+  }
 }
 
 @media (max-width: 576px) {
-    .ubicacion {
-        width: 300px;
-        height: 250px;
-    }
+  .ubicacion {
+    width: 300px;
+    height: 250px;
+  }
 
-    .pagos {
-        width: 300px;
-        height: 100px;
-    }
-
-    .content-logo {
-        width: 63px;
-        height: 31px;
-    }
+  .pagos {
+    width: 300px;
+    height: 100px;
+  }
 }
